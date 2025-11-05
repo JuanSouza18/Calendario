@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Calendário Melhorado</title>
+  <link rel="stylesheet" href="base.css" />
+</head>
+<body>
+  <div class="calendar-container">
+    <header class="calendar-header">
+      <button id="prevMonth">&lt;</button>
+      <h2 id="monthYear"></h2>
+      <button id="nextMonth">&gt;</button>
+    </header>
+
+    <div class="calendar-controls">
+      <button id="todayBtn">Hoje</button>
+      <button id="clearEventsBtn">Limpar Eventos</button>
+    </div>
+
+    <div class="weekdays">
+      <div>Dom</div><div>Seg</div><div>Ter</div>
+      <div>Qua</div><div>Qui</div><div>Sex</div><div>Sáb</div>
+    </div>
+
+    <div id="daysGrid" class="days-grid"></div>
+  </div>
+
+  <!-- Modal de Evento -->
+  <div id="eventModal" class="modal">
+    <div class="modal-content">
+      <h3 id="modalDate"></h3>
+      <input id="eventInput" type="text" placeholder="Digite um evento..." />
+      <div class="modal-buttons">
+        <button id="saveEvent">Salvar</button>
+        <button id="deleteEvent">Excluir</button>
+        <button id="closeModal">Fechar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
