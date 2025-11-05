@@ -34,7 +34,7 @@ Permite **navegar entre meses**, **adicionar, editar e excluir eventos**, e aind
 
 Clone o repositório:
 
-git clone https://github.com/seuusuario/calendario-js.git
+git clone https:https://github.com/JuanSouza18/Calendario/tree/main
 
 
 Abra a pasta do projeto:
